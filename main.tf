@@ -13,6 +13,14 @@ terraform {
   }
 }
 
+#terraform {
+#  backend "azurerm"{
+#      resource_group_name  = "walure-group"
+#      storage_account_name = "walureerp"
+#      container_name       = "walureerp"
+#  }
+#}
+
 provider "azurerm" {
   features {}
 }
